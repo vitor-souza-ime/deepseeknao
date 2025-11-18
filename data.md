@@ -1,6 +1,3 @@
-🤖 NAO vai falar: 'Hello! I'm NAO with DeepSeek AI running locally. I'm ready to chat with you in English. Please speak clearly.'
-   (tamanho: 109 caracteres)
-
 ============================================================
 --- Conversa #1 ---
 ============================================================
@@ -38,52 +35,6 @@
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
    🟢 PODE FALAR AGORA!
-   ✅ 'friend' (conf: 0.46)
-   ⏸️ Silêncio detectado, processando...
-   📝 Frase reconhecida: 'friend'
-👤 USUÁRIO DISSE: 'friend'
-🤖 NAO vai falar: 'Goodbye! It was wonderful chatting with you. Have a great day!'
-   (tamanho: 62 caracteres)
-u7@pc7:~/Documentos/exPython$ /usr/bin/python3 /home/u7/Documentos/exPython/ex4DeepseekV2.py
-============================================================
-🤖 NAO + DeepSeek LLM Chat (CLI via subprocess)
-============================================================
-
-📋 Configuração:
-   NAO IP: 172.15.3.253
-   Modelo: deepseek-llm:latest
-   Tamanho: 4.0 GB
-
-💡 Certifique-se que Ollama e DeepSeek estão instalados:
-   $ ollama --version
-   $ ollama list  # para ver modelos instalados
-   $ ollama pull deepseek-llm:latest  # se necessário
-
-🔗 Conectando ao NAO em 172.15.3.253:9559...
-[W] 1763476079.567724 35696 qi.path.sdklayout: No Application was created, trying to deduce paths
-✅ Conectado ao NAO!
-✅ Volume do TTS configurado para 10%
-✅ Serviços NAO inicializados!
-🔗 Verificando Ollama CLI...
-✅ Ollama CLI disponível!
-
-📦 Modelos instalados:
-NAME                     ID              SIZE      MODIFIED   
-deepseek-llm:latest      9aab369a853b    4.0 GB    6 days ago    
-deepseek-coder:latest    3ddd2d3fc8d2    776 MB    6 days ago    
-llama3:latest            365c0bd3c000    4.7 GB    6 days ago
-✅ Usando modelo: deepseek-llm:latest
-
-🚀 INICIANDO CHAT NAO + DEEPSEEK LLM
-🤖 NAO vai falar: 'Hello! I'm NAO with DeepSeek AI running locally. I'm ready to chat with you in English. Please speak clearly.'
-   (tamanho: 109 caracteres)
-
-============================================================
---- Conversa #1 ---
-============================================================
-🎤 Aguardando sua fala...
-🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
-   🟢 PODE FALAR AGORA!
    ✅ 'four' (conf: 0.58)
    ⏸️ Silêncio detectado, processando...
    📝 Frase reconhecida: 'four'
@@ -111,7 +62,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 109 caracteres)
 
 ============================================================
---- Conversa #2 ---
+--- Conversa #3 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -143,7 +94,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 80 caracteres)
 
 ============================================================
---- Conversa #3 ---
+--- Conversa #4 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -175,7 +126,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 163 caracteres)
 
 ============================================================
---- Conversa #4 ---
+--- Conversa #5 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -207,18 +158,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 50 caracteres)
 
 ============================================================
---- Conversa #5 ---
-============================================================
-🎤 Aguardando sua fala...
-🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
-   🟢 PODE FALAR AGORA!
-   ❌ Nenhuma palavra reconhecida
-❌ Falha #1
-🤖 NAO vai falar: 'I didn't catch that. Please speak louder and more clearly.'
-   (tamanho: 58 caracteres)
-
-============================================================
---- Conversa #5 ---
+--- Conversa #6 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -250,7 +190,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 90 caracteres)
 
 ============================================================
---- Conversa #6 ---
+--- Conversa #7 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -282,7 +222,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 132 caracteres)
 
 ============================================================
---- Conversa #7 ---
+--- Conversa #8 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -314,7 +254,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 58 caracteres)
 
 ============================================================
---- Conversa #8 ---
+--- Conversa #9 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -346,7 +286,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 87 caracteres)
 
 ============================================================
---- Conversa #9 ---
+--- Conversa #10 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -378,64 +318,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 110 caracteres)
 
 ============================================================
---- Conversa #10 ---
-============================================================
-🎤 Aguardando sua fala...
-🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
-   🟢 PODE FALAR AGORA!
-   ❌ Nenhuma palavra reconhecida
-❌ Falha #1
-🤖 NAO vai falar: 'I didn't catch that. Please speak louder and more clearly.'
-   (tamanho: 58 caracteres)
-
-============================================================
---- Conversa #10 ---
-============================================================
-🎤 Aguardando sua fala...
-🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
-   🟢 PODE FALAR AGORA!
-   ✅ 'quit' (conf: 0.57)
-   🛑 Comando de saída detectado!
-   📝 Frase reconhecida: 'quit'
-👤 USUÁRIO DISSE: 'quit'
-🤖 NAO vai falar: 'Goodbye! It was wonderful chatting with you. Have a great day!'
-   (tamanho: 62 caracteres)
-u7@pc7:~/Documentos/exPython$ /usr/bin/python3 /home/u7/Documentos/exPython/ex4DeepseekV2.py
-============================================================
-🤖 NAO + DeepSeek LLM Chat (CLI via subprocess)
-============================================================
-
-📋 Configuração:
-   NAO IP: 172.15.3.253
-   Modelo: deepseek-llm:latest
-   Tamanho: 4.0 GB
-
-💡 Certifique-se que Ollama e DeepSeek estão instalados:
-   $ ollama --version
-   $ ollama list  # para ver modelos instalados
-   $ ollama pull deepseek-llm:latest  # se necessário
-
-🔗 Conectando ao NAO em 172.15.3.253:9559...
-[W] 1763476275.340572 36418 qi.path.sdklayout: No Application was created, trying to deduce paths
-✅ Conectado ao NAO!
-✅ Volume do TTS configurado para 10%
-✅ Serviços NAO inicializados!
-🔗 Verificando Ollama CLI...
-✅ Ollama CLI disponível!
-
-📦 Modelos instalados:
-NAME                     ID              SIZE      MODIFIED   
-deepseek-llm:latest      9aab369a853b    4.0 GB    6 days ago    
-deepseek-coder:latest    3ddd2d3fc8d2    776 MB    6 days ago    
-llama3:latest            365c0bd3c000    4.7 GB    6 days ago
-✅ Usando modelo: deepseek-llm:latest
-
-🚀 INICIANDO CHAT NAO + DEEPSEEK LLM
-🤖 NAO vai falar: 'Hello! I'm NAO with DeepSeek AI running locally. I'm ready to chat with you in English. Please speak clearly.'
-   (tamanho: 109 caracteres)
-
-============================================================
---- Conversa #1 ---
+--- Conversa #11 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -467,7 +350,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 173 caracteres)
 
 ============================================================
---- Conversa #2 ---
+--- Conversa #12 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -499,53 +382,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 176 caracteres)
 
 ============================================================
---- Conversa #3 ---
-============================================================
-🎤 Aguardando sua fala...
-🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
-   🟢 PODE FALAR AGORA!
-   ✅ 'end' (conf: 0.64)
-   🛑 Comando de saída detectado!
-   📝 Frase reconhecida: 'end'
-👤 USUÁRIO DISSE: 'end'
-🤖 NAO vai falar: 'Goodbye! It was wonderful chatting with you. Have a great day!'
-   (tamanho: 62 caracteres)
-u7@pc7:~/Documentos/exPython$ /usr/bin/python3 /home/u7/Documentos/exPython/ex4DeepseekV2.py
-============================================================
-🤖 NAO + DeepSeek LLM Chat (CLI via subprocess)
-============================================================
-
-📋 Configuração:
-   NAO IP: 172.15.3.253
-   Modelo: deepseek-llm:latest
-   Tamanho: 4.0 GB
-
-💡 Certifique-se que Ollama e DeepSeek estão instalados:
-   $ ollama --version
-   $ ollama list  # para ver modelos instalados
-   $ ollama pull deepseek-llm:latest  # se necessário
-
-🔗 Conectando ao NAO em 172.15.3.253:9559...
-[W] 1763476340.553208 36668 qi.path.sdklayout: No Application was created, trying to deduce paths
-✅ Conectado ao NAO!
-✅ Volume do TTS configurado para 10%
-✅ Serviços NAO inicializados!
-🔗 Verificando Ollama CLI...
-✅ Ollama CLI disponível!
-
-📦 Modelos instalados:
-NAME                     ID              SIZE      MODIFIED   
-deepseek-llm:latest      9aab369a853b    4.0 GB    6 days ago    
-deepseek-coder:latest    3ddd2d3fc8d2    776 MB    6 days ago    
-llama3:latest            365c0bd3c000    4.7 GB    6 days ago
-✅ Usando modelo: deepseek-llm:latest
-
-🚀 INICIANDO CHAT NAO + DEEPSEEK LLM
-🤖 NAO vai falar: 'Hello! I'm NAO with DeepSeek AI running locally. I'm ready to chat with you in English. Please speak clearly.'
-   (tamanho: 109 caracteres)
-
-============================================================
---- Conversa #1 ---
+--- Conversa #13 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -577,7 +414,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 93 caracteres)
 
 ============================================================
---- Conversa #2 ---
+--- Conversa #14 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -609,7 +446,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 121 caracteres)
 
 ============================================================
---- Conversa #3 ---
+--- Conversa #15 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -641,7 +478,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 92 caracteres)
 
 ============================================================
---- Conversa #4 ---
+--- Conversa #16 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -673,7 +510,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 121 caracteres)
 
 ============================================================
---- Conversa #5 ---
+--- Conversa #17 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -704,7 +541,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 72 caracteres)
 
 ============================================================
---- Conversa #6 ---
+--- Conversa #18 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -736,7 +573,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 176 caracteres)
 
 ============================================================
---- Conversa #7 ---
+--- Conversa #19 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -768,7 +605,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 122 caracteres)
 
 ============================================================
---- Conversa #8 ---
+--- Conversa #20 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -799,7 +636,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 35 caracteres)
 
 ============================================================
---- Conversa #9 ---
+--- Conversa #21 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -831,7 +668,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 104 caracteres)
 
 ============================================================
---- Conversa #10 ---
+--- Conversa #22 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -863,7 +700,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 132 caracteres)
 
 ============================================================
---- Conversa #11 ---
+--- Conversa #23 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -895,7 +732,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 183 caracteres)
 
 ============================================================
---- Conversa #12 ---
+--- Conversa #24 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -926,7 +763,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 123 caracteres)
 
 ============================================================
---- Conversa #13 ---
+--- Conversa #25 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -958,93 +795,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 116 caracteres)
 
 ============================================================
---- Conversa #14 ---
-============================================================
-🎤 Aguardando sua fala...
-🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
-   🟢 PODE FALAR AGORA!
-   ❌ Nenhuma palavra reconhecida
-❌ Falha #1
-🤖 NAO vai falar: 'I didn't catch that. Please speak louder and more clearly.'
-   (tamanho: 58 caracteres)
-
-============================================================
---- Conversa #14 ---
-============================================================
-🎤 Aguardando sua fala...
-🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
-   🟢 PODE FALAR AGORA!
-   ❌ Nenhuma palavra reconhecida
-❌ Falha #2
-🤖 NAO vai falar: 'Could you repeat that? I'm listening.'
-   (tamanho: 37 caracteres)
-
-============================================================
---- Conversa #14 ---
-============================================================
-🎤 Aguardando sua fala...
-🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
-   🟢 PODE FALAR AGORA!
-   ❌ Nenhuma palavra reconhecida
-❌ Falha #3
-🤖 NAO vai falar: 'I'm having trouble hearing you. Let me reset the speech system.'
-   (tamanho: 63 caracteres)
-🔄 Resetando sistema de fala...
-
-============================================================
---- Conversa #14 ---
-============================================================
-🎤 Aguardando sua fala...
-🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
-   🟢 PODE FALAR AGORA!
-   ❌ Nenhuma palavra reconhecida
-❌ Falha #1
-🤖 NAO vai falar: 'I didn't catch that. Please speak louder and more clearly.'
-   (tamanho: 58 caracteres)
-
-============================================================
---- Conversa #14 ---
-============================================================
-🎤 Aguardando sua fala...
-🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
-   🟢 PODE FALAR AGORA!
-   ❌ Nenhuma palavra reconhecida
-   
-============================================================
-🤖 NAO + DeepSeek LLM Chat (CLI via subprocess)
-============================================================
-
-📋 Configuração:
-   NAO IP: 172.15.3.253
-   Modelo: deepseek-llm:latest
-   Tamanho: 4.0 GB
-
-💡 Certifique-se que Ollama e DeepSeek estão instalados:
-   $ ollama --version
-   $ ollama list  # para ver modelos instalados
-   $ ollama pull deepseek-llm:latest  # se necessário
-
-🔗 Conectando ao NAO em 172.15.3.253:9559...
-[W] 1763476661.833054 37781 qi.path.sdklayout: No Application was created, trying to deduce paths
-✅ Conectado ao NAO!
-✅ Volume do TTS configurado para 10%
-✅ Serviços NAO inicializados!
-🔗 Verificando Ollama CLI...
-✅ Ollama CLI disponível!
-
-📦 Modelos instalados:
-NAME                     ID              SIZE      MODIFIED   
-deepseek-llm:latest      9aab369a853b    4.0 GB    6 days ago    
-deepseek-coder:latest    3ddd2d3fc8d2    776 MB    6 days ago    
-llama3:latest            365c0bd3c000    4.7 GB    6 days ago
-✅ Usando modelo: deepseek-llm:latest
-
-🚀 INICIANDO CHAT NAO + DEEPSEEK LLM
-🤖 NAO vai falar: 'Hello! I'm NAO with DeepSeek AI running locally. I'm ready to chat with you in English. Please speak clearly.'
-   (tamanho: 109 caracteres)
-
-============================================================
---- Conversa #1 ---
+--- Conversa #26 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -1076,7 +827,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 216 caracteres)
 
 ============================================================
---- Conversa #2 ---
+--- Conversa #27 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -1108,61 +859,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 111 caracteres)
 
 ============================================================
---- Conversa #3 ---
-============================================================
-🎤 Aguardando sua fala...
-🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
-   🟢 PODE FALAR AGORA!
-   ❌ Nenhuma palavra reconhecida
-❌ Falha #1
-🤖 NAO vai falar: 'I didn't catch that. Please speak louder and more clearly.'
-   (tamanho: 58 caracteres)
-
-============================================================
---- Conversa #3 ---
-============================================================
-🎤 Aguardando sua fala...
-🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
-   🟢 PODE FALAR AGORA!
-
-
-
-u7@pc7:~/Documentos/exPython$ /usr/bin/python3 /home/u7/Documentos/exPython/ex4DeepseekV2.py
-============================================================
-🤖 NAO + DeepSeek LLM Chat (CLI via subprocess)
-============================================================
-
-📋 Configuração:
-   NAO IP: 172.15.3.253
-   Modelo: deepseek-llm:latest
-   Tamanho: 4.0 GB
-
-💡 Certifique-se que Ollama e DeepSeek estão instalados:
-   $ ollama --version
-   $ ollama list  # para ver modelos instalados
-   $ ollama pull deepseek-llm:latest  # se necessário
-
-🔗 Conectando ao NAO em 172.15.3.253:9559...
-[W] 1763476745.072624 38090 qi.path.sdklayout: No Application was created, trying to deduce paths
-✅ Conectado ao NAO!
-✅ Volume do TTS configurado para 10%
-✅ Serviços NAO inicializados!
-🔗 Verificando Ollama CLI...
-✅ Ollama CLI disponível!
-
-📦 Modelos instalados:
-NAME                     ID              SIZE      MODIFIED   
-deepseek-llm:latest      9aab369a853b    4.0 GB    6 days ago    
-deepseek-coder:latest    3ddd2d3fc8d2    776 MB    6 days ago    
-llama3:latest            365c0bd3c000    4.7 GB    6 days ago
-✅ Usando modelo: deepseek-llm:latest
-
-🚀 INICIANDO CHAT NAO + DEEPSEEK LLM
-🤖 NAO vai falar: 'Hello! I'm NAO with DeepSeek AI running locally. I'm ready to chat with you in English. Please speak clearly.'
-   (tamanho: 109 caracteres)
-
-============================================================
---- Conversa #1 ---
+--- Conversa #28 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -1194,7 +891,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 78 caracteres)
 
 ============================================================
---- Conversa #2 ---
+--- Conversa #29 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -1226,7 +923,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 149 caracteres)
 
 ============================================================
---- Conversa #3 ---
+--- Conversa #30 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -1258,7 +955,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 142 caracteres)
 
 ============================================================
---- Conversa #4 ---
+--- Conversa #31 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -1290,7 +987,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 135 caracteres)
 
 ============================================================
---- Conversa #5 ---
+--- Conversa #32 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -1322,7 +1019,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 106 caracteres)
 
 ============================================================
---- Conversa #6 ---
+--- Conversa #33 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -1354,7 +1051,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 130 caracteres)
 
 ============================================================
---- Conversa #7 ---
+--- Conversa #34 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -1385,7 +1082,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 142 caracteres)
 
 ============================================================
---- Conversa #8 ---
+--- Conversa #35 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -1417,7 +1114,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 194 caracteres)
 
 ============================================================
---- Conversa #9 ---
+--- Conversa #36 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -1449,7 +1146,7 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
    (tamanho: 99 caracteres)
 
 ============================================================
---- Conversa #10 ---
+--- Conversa #37 ---
 ============================================================
 🎤 Aguardando sua fala...
 🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
@@ -1479,11 +1176,3 @@ llama3:latest            365c0bd3c000    4.7 GB    6 days ago
 ✅ Vai falar a resposta...
 🤖 NAO vai falar: 'Great! I'm here to help you with any questions or tasks you need assistance with.'
    (tamanho: 81 caracteres)
-^A^A
-============================================================
---- Conversa #11 ---
-============================================================
-🎤 Aguardando sua fala...
-🎤 Escutando por 10.0 segundos... (Vocabulário: 163 palavras)
-   🟢 PODE FALAR AGORA!
-   
